@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    background-color: #ED37BF;
+}
+
+#headerLeft {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    /* background-color: #ED37BF; */
+}
+
+img{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#imgBars {
+    max-width: 50%;
+}
+
+/* --------------------------- */
+
+#headerCenter {
+    width: 50%;
+    height: 100%;
+    /* background-color: #cf16a1; */
+}
+
+#headerLogo {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    /* background-color: #bd7bac; */
+}
+
+#logo {
+    max-width: 60%;
+}
+
+#headerSocial {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    /* background-color: #522f49; */
+}
+
+.iconsHeader {
+    max-width: 20%;
+}
+
+/*  */
+
+#headerRight {
+    width: 25%;
+    height: 200px;
+    /* background-color: #8f076d; */
+}
