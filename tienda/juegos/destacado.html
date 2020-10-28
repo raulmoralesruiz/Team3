@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team 3 - Tienda</title>
-    <link rel="stylesheet" href="tienda.css">
+    <link rel="stylesheet" href="destacado.css">
     <script src="https://kit.fontawesome.com/fb9441284a.js" crossorigin="anonymous"></script>
 </head>
 
@@ -16,14 +16,14 @@
             <input type="checkbox" id="menu">
             <label for="menu">
                 <!-- ☰ -->
-                <img src="../images/bars.svg" alt="" id="imgBars">
+                <img src="../../images/bars.svg" alt="" id="imgBars">
             </label>
             <ul>
                 <!-- <li>Link 1. texto de enlace numero 1</li>
                 <li>Link 2. texto de enlace numero 1</li>
                 <li>Link 3. texto de enlace numero 1</li>
                 <li>Link 4. texto de enlace numero 1</li> -->
-                <li><a href="../index.html">Home</a></li>
+                <li><a href="../../index.html">Home</a></li>
                 <li>Tienda</li>
                 <li>Somos</li>
                 <li>Contacto</li>
@@ -35,14 +35,14 @@
         </div> -->
         <div id="headerCenter">
             <div id="headerLogo">
-                <a href="../index.html">
-                    <img src="../images/team3.png" alt="" id="logo">
+                <a href="../../index.html">
+                    <img src="../../images/team3.png" alt="" id="logo">
                 </a>
             </div>
             <div id="headerSocial">
-                <img src="../images/twitter.svg" alt="" class="iconsHeader">
-                <img src="../images/instagram.svg" alt="" class="iconsHeader">
-                <img src="../images/linkedin.svg" alt="" class="iconsHeader">
+                <img src="../../images/twitter.svg" alt="" class="iconsHeader">
+                <img src="../../images/instagram.svg" alt="" class="iconsHeader">
+                <img src="../../images/linkedin.svg" alt="" class="iconsHeader">
             </div>
         </div>
         <div id="headerRight"></div>
@@ -60,33 +60,51 @@
 
 
         <div id="divJuegoDestacado">
-            <h1>Juego destacado</h1>
+            <h1 id="tituloJuegoPrincipal">FIFA 20</h1>
 
-            <a href="juegos/destacado.html">
-                <img id="imgJuegoDestacado" src="images/juego_destacado/fifa20.jpeg" alt="">
-            </a>
+            <video id="destacadoGameplay" src="media/gameplay.mp4" autoplay controls loop preload="auto"></video>
+
+            <div id="descripcionJuego">
+                <p>Vive las dos caras del juego del mundo con FIFA 20 Gracias al motor Frostbite™, EA SPORTS™ FIFA 20
+                    para PC te
+                    muestra las dos caras del deporte rey: la prestigiosa competición profesional y la novedosa
+                    experiencia del
+                    fútbol callejero más auténtico en EA SPORTS FÚTBOL VOLTA</p>
+            </div>
+
+            <div id="comprarJuego">
+                <label id="precioJuego" for="botonComprar">30€</label>
+                <!-- <input id="inputApuntarse" type="text" placeholder="Apúntate a nuestro boletín"> -->
+                <input id="botonComprar" type="button" value="Comprar">
+            </div>
+
+
+            <!-- <a href="">
+                <img id="imgJuegoDestacado" src="../images/juego_destacado/fifa20.jpeg" alt="">
+            </a> -->
+
         </div>
 
-        <div id="divRestoJuegos">
+        <!--  <div id="divRestoJuegos">
             <h1>Más juegos</h1>
 
             <a href="">
-                <img class="otroJuego" src="images/juegos/among.jpg" alt="">
+                <img class="otroJuego" src="../images/juegos/among.jpg" alt="">
             </a>
             <a href="">
-                <img class="otroJuego" src="images/juegos/rocket.jpg" alt="">
+                <img class="otroJuego" src="../images/juegos/rocket.jpg" alt="">
             </a>
             <a href="">
-                <img class="otroJuego" src="images/juegos/fallguys.jpg" alt="">
+                <img class="otroJuego" src="../images/juegos/fallguys.jpg" alt="">
             </a>
             <a href="">
-                <img class="otroJuego" src="images/juegos/cyberpunk.jpg" alt="">
+                <img class="otroJuego" src="../images/juegos/cyberpunk.jpg" alt="">
             </a>
             <a href="">
-                <img class="otroJuego" src="images/juegos/gta.jpg" alt="">
+                <img class="otroJuego" src="../images/juegos/gta.jpg" alt="">
             </a>
 
-        </div>
+        </div> -->
 
     </div>
 
@@ -128,13 +146,13 @@
                 <input id="botonEnviar" type="button" value="ENVIAR">
             </div>
 
-            <img src="../images/up.svg" alt="" id="upToHome">
+            <img src="../../images/up.svg" alt="" id="upToHome">
 
             <div id="divFooterSocial">
-                <img src="../images/twitter.svg" alt="" class="iconsFooter">
-                <img src="../images/instagram.svg" alt="" class="iconsFooter">
-                <img src="../images/linkedin.svg" alt="" class="iconsFooter">
-                <img src="../images/youtube.svg" alt="" class="iconsFooter">
+                <img src="../../images/twitter.svg" alt="" class="iconsFooter">
+                <img src="../../images/instagram.svg" alt="" class="iconsFooter">
+                <img src="../../images/linkedin.svg" alt="" class="iconsFooter">
+                <img src="../../images/youtube.svg" alt="" class="iconsFooter">
             </div>
 
             <p>Copyright © 2020 Team3.</p>

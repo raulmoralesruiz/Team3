@@ -73,6 +73,10 @@ li {
     /* background-color: #bd7bac; */
 }
 
+a {
+    text-align: center;
+}
+
 #logo {
     max-width: 60%;
 }
